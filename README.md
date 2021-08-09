@@ -1,3 +1,3 @@
 # generalgope.github.io
 
-Site is not online yet
+oh no! where did it go? it was right here when i last saw it. welp. gope.
