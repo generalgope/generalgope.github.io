@@ -1,0 +1,64 @@
+body, html{
+    margin: 0;
+    background-color: rgb(2, 2, 17);
+    scroll-behavior: smooth; 
+    height: 200vh;
+}
+
+.gradient-filter{
+    width: 100%; 
+    height: 75vh;
+    background-image:linear-gradient(to bottom, rgba(11, 2, 36, 0.685), rgba(196, 41, 14, 0.534),rgba(255, 27, 84, 0.342), rgb(2, 2, 17)), url("assets/images/simpson-initial-d.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: blur(1px);
+    z-index: 1;
+}
+
+.logo{
+    background: -webkit-linear-gradient(rgb(255, 115, 0),rgb(255, 0, 55));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    position: relative;
+    z-index: 2;
+    font-family: 'Monofett', cursive;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.menu{
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.bar1, .bar2{
+    width: 35px;
+    height: 3px;
+    background-color: hsl(24, 100%, 50%);
+    margin: 5px;
+}
+
+.bar3{
+    width: 20px;
+    height: 3px;
+    background-color: hsl(24, 100%, 50%);
+    margin: 5px;    
+}
+
+img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 75%;
+}
